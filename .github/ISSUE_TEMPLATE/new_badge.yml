@@ -2,7 +2,8 @@ name: New Badge
 description: Submit a badge for the DevinsBadges Community Library
 title: "[NEW] BADGENAME_HERE"
 labels:
-  - enhancements
+  - "Status: Not Reviewed"
+  - "Badge Suggestion"
 assignees:
   - Intensed-dev
 
