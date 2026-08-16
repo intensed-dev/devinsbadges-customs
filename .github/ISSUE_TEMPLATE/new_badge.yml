@@ -1,6 +1,6 @@
 name: New Badge
 description: Submit a badge for the DevinsBadges Community Library
-title: "[NEW] BADGENAME_HIER"
+title: "[NEW] BADGENAME_HERE"
 labels:
   - enhancements
 assignees:
@@ -10,18 +10,18 @@ body:
   - type: input
     id: badge_name
     attributes:
-      label: Name des Badges
-      description: Gib den Namen des neuen Badges ein.
-      placeholder: z. B. Modrinth
+      label: Badge Name
+      description: Enter the name of the badge.
+      placeholder: e.g. Modrinth
     validations:
       required: true
 
   - type: textarea
     id: description
     attributes:
-      label: Beschreibung
-      description: Beschreibe kurz, was das Badge darstellt und wofür es verwendet werden soll.
-      placeholder: Beschreibe dein Badge...
+      label: Description
+      description: Describe what the badge represents and what it should be used for.
+      placeholder: Describe your badge...
     validations:
       required: true
 
@@ -30,20 +30,21 @@ body:
     attributes:
       label: Badge Images
       description: |
-        Lade bitte sowohl die PNG- als auch die SVG-Version hoch.
+        Please upload both the PNG and SVG versions of the badge.
 
-        Ziehe die Dateien einfach hier hinein oder füge sie ein.
+        You can drag and drop the files here.
       placeholder: |
-        PNG:
-        SVG:
+        Please upload:
+        - PNG
+        - SVG
     validations:
       required: true
 
   - type: checkboxes
     id: styles
     attributes:
-      label: Badge Style
-      description: Wähle alle Varianten aus, die erstellt werden sollen.
+      label: Badge Styles
+      description: Select all badge styles that should be included.
       options:
         - label: cozy
         - label: cozy minimal
@@ -56,7 +57,7 @@ body:
     id: category
     attributes:
       label: Badge Category
-      description: Wähle die Kategorie des Badges.
+      description: Select the category of the badge.
       options:
         - OTHER
         - only available
@@ -77,9 +78,8 @@ body:
   - type: input
     id: other_category
     attributes:
-      label: Eigener Kategorie-Name
-      description: |
-        Nur ausfüllen, wenn du bei "Badge Category" OTHER ausgewählt hast.
-      placeholder: z. B. featured
+      label: Custom Category Name
+      description: Only fill this out if you selected OTHER above.
+      placeholder: e.g. featured
     validations:
       required: false
