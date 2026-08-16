@@ -59,8 +59,8 @@ body:
       label: Badge Category
       description: Select the category of the badge.
       options:
-        - OTHER
-        - only available
+        - -- OTHER --
+        - only available (community)
         - available
         - built with
         - built for
