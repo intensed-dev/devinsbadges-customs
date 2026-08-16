@@ -83,3 +83,18 @@ body:
       placeholder: e.g. featured
     validations:
       required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      description: Please confirm the following before submitting your badge.
+      options:
+        - label: I have provided accurate information to the best of my knowledge.
+          required: true
+        - label: I am allowed to submit this badge or I am the copyright holder.
+          required: true
+        - label: I understand that this submit will be reviewed by the DevinsBadges-Customs maintainers.
+          required: true
+        - label: I understand that submitting this badge does not automatically mean that the badge will be added.
+          required: true
