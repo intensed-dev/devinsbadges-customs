@@ -6,8 +6,13 @@ Devinsbadges is amazing! But, intergrav has lost his time as of January 2026, wh
 
 ## Credits
 <details>
-  <summary>Only Available</summary>
+  <summary>Only Available (Community)</summary>
   <h4>Modrinth</h4>
+  Cozy: Intensed-dev
+</details>
+<details>
+  <summary>Welcome (Community)</summary>
+  <h4>My Profile</h4>
   Cozy: Intensed-dev
 </details>
 
