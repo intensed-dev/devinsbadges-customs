@@ -187,7 +187,7 @@ body:
       options:
         - label: I have provided accurate information to the best of my knowledge.
           required: true
-        - label: I understand that this report will be reviewed by the DevinsBadges maintainers.
+        - label: I understand that this report will be reviewed by the DevinsBadges-Customs maintainers.
           required: true
         - label: I understand that submitting this report does not automatically mean that the badge will be removed.
           required: true
