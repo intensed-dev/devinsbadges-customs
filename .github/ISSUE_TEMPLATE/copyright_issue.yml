@@ -2,7 +2,7 @@ name: Copyright / IP Issue
 description: Report a potential copyright, trademark, licensing, or other intellectual property issue with a badge.
 title: "[IP] BADGE_NAME_HERE"
 labels:
-  - "Copyright Issue"
+  - "Copyright Report"
   - "Status: Not Reviewed"
 assignees:
   - Intensed-dev
