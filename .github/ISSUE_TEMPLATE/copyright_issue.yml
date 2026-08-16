@@ -1,0 +1,193 @@
+name: Copyright / IP Issue
+description: Report a potential copyright, trademark, licensing, or other intellectual property issue with a badge.
+title: "[IP] BADGE_NAME_HERE"
+labels:
+  - copyright
+assignees:
+  - Intensed-dev
+
+body:
+  - type: dropdown
+    id: badge
+    attributes:
+      label: Affected Badge
+      description: Select the badge that you believe has an intellectual property issue.
+      options:
+        - Select a badge
+        - BADGE_NAME_1
+        - BADGE_NAME_2
+        - BADGE_NAME_3
+        - Other / Not Listed
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue Type
+      description: What type of intellectual property issue are you reporting?
+      options:
+        - Copyright infringement
+        - Trademark infringement
+        - License violation
+        - Unauthorized use of artwork
+        - Unauthorized use of logo / branding
+        - Plagiarism
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: other_issue_type
+    attributes:
+      label: Custom Issue Type
+      description: Only fill this out if you selected "Other" above.
+      placeholder: Describe the type of issue...
+    validations:
+      required: false
+
+  - type: textarea
+    id: issue_description
+    attributes:
+      label: Issue Description
+      description: |
+        Explain the issue in detail.
+
+        Please explain why you believe the badge violates copyright, trademark,
+        licensing, or other intellectual property rights.
+      placeholder: Describe the issue in detail...
+    validations:
+      required: true
+
+  - type: input
+    id: original_work
+    attributes:
+      label: Original Work
+      description: Provide a link to the original artwork, logo, website, repository, or other source.
+      placeholder: https://example.com/original-work
+    validations:
+      required: true
+
+  - type: input
+    id: copyright_owner
+    attributes:
+      label: Copyright / Trademark Owner
+      description: Who owns the original work or intellectual property?
+      placeholder: e.g. Example Company
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reporter_relationship
+    attributes:
+      label: Your Relationship to the Work
+      description: What is your relationship to the intellectual property?
+      options:
+        - I am the copyright owner
+        - I am the trademark owner
+        - I am an authorized representative
+        - I am reporting this on behalf of the owner
+        - I am not affiliated with the owner
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: other_relationship
+    attributes:
+      label: Custom Relationship
+      description: Only fill this out if you selected "Other" above.
+      placeholder: Describe your relationship...
+    validations:
+      required: false
+
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: If the original work has a license, specify it or provide a link to the license.
+      placeholder: e.g. CC BY-NC 4.0 / MIT / No license / https://...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: permission
+    attributes:
+      label: Permission Status
+      description: Do you know whether the badge creator has permission to use the work?
+      options:
+        - No permission exists
+        - Permission was explicitly denied
+        - Permission is unknown
+        - Permission may exist
+        - Permission definitely exists
+        - Not applicable
+    validations:
+      required: true
+
+  - type: input
+    id: infringing_source
+    attributes:
+      label: Source / Infringing Material
+      description: Provide a link to where the original material is used or where the issue can be verified.
+      placeholder: https://example.com/source
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: |
+        Provide any additional evidence that may help us verify the claim.
+
+        You can upload screenshots, comparisons, documents, or other relevant files here.
+      placeholder: Upload or paste your evidence here...
+    validations:
+      required: false
+
+  - type: dropdown
+    id: requested_action
+    attributes:
+      label: Requested Action
+      description: What action do you believe should be taken?
+      options:
+        - Remove the badge
+        - Temporarily disable the badge while investigating
+        - Replace the badge artwork
+        - Contact the badge creator
+        - Review the badge's licensing
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: other_requested_action
+    attributes:
+      label: Custom Requested Action
+      description: Only fill this out if you selected "Other" above.
+      placeholder: Describe the requested action...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional_information
+    attributes:
+      label: Additional Information
+      description: Add anything else that may be relevant to this report.
+      placeholder: Any additional information...
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      description: Please confirm the following before submitting your report.
+      options:
+        - label: I have provided accurate information to the best of my knowledge.
+          required: true
+        - label: I understand that this report will be reviewed by the DevinsBadges maintainers.
+          required: true
+        - label: I understand that submitting this report does not automatically mean that the badge will be removed.
+          required: true
