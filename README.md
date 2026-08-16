@@ -13,4 +13,4 @@ Devinsbadges is amazing! But, intergrav has lost his time as of January 2026, wh
 
 <hr>
 
-_Not in any contact with Intergrav or Devinsbadges. If you've got an copyright issue, please report them by creating a new issue._
+_Not in any contact with Intergrav or Devinsbadges. [Submit a new badge here](https://github.com/intensed-dev/devinsbadges-customs/issues/new?template=new_badge.yml). If you've got an copyright issue, please report them by [creating a new issue](https://github.com/intensed-dev/devinsbadges-customs/issues/new?template=copyright-issue.yml)._
