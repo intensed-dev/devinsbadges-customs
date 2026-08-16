@@ -10,7 +10,7 @@ You can create a new Request for a badge as an Issue and wait for someone to cre
 Go to the devins-badges repo and download the [official Figma Template](https://github.com/intergrav/devins-badges/other/devinsbadges-template.fig). Open it in Figma and edit your badge. At the end, export it to both PNG and Vector.
 
 ## Step 2: Contribute it
-We don't accept pull requests: They are weird and too complicated in our case. Instead, create a new Issue by using the "New Badge" Template or by clicking here. Then, complete the formular. We recommend uploading the Icons as zip files.
+We don't accept pull requests: They are weird and too complicated in our case. Instead, create a new Issue by using the "New Badge" Template or by clicking [here](https://github.com/intensed-dev/devinsbadges-customs/issues/new?template=new_badge.yml). Then, complete the formular. We recommend uploading the Icons as zip files.
 
 ## Step 3: Wait
 Our team will review this. Trust us!
