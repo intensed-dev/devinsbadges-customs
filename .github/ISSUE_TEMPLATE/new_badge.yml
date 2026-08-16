@@ -60,18 +60,21 @@ body:
       label: Badge Category
       description: Select the category of the badge.
       options:
-        - Other
+        - --Other--
         - only available (community)
         - available
         - built with
         - built for
+        - creator of (community)
         - documentation
         - donate
+        - made by (community)
         - requires
         - social
         - supported
         - translate
         - unsupported
+        - welcome (community)
       default: 0
     validations:
       required: true
