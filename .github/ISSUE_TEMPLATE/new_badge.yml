@@ -76,6 +76,29 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: creditation
+    attributes:
+      label: Creditation
+      description: Choose what type of creditation you want to get.
+      options:
+        - Default
+        - Other
+        - Custom Name only
+        - URL only
+        - Custom Name & URL
+      default: 0
+      validations:
+        required: true
+
+  - type: textarea
+    id: credit_text
+    attributes:
+      label: Credit Content
+      description: Add your preferred links or names. If you selected OTHER, type them here. This will ignored if you choose Default.
+      validations:
+        required: false
+
   - type: input
     id: other_category
     attributes:
@@ -98,4 +121,6 @@ body:
         - label: I understand that this submit will be reviewed by the DevinsBadges-Customs maintainers.
           required: true
         - label: I understand that submitting this badge does not automatically mean that the badge will be added.
+          required: true
+        - label: I will accept that these badges will be licensed under CC0 1.0 Universal once accepted and no crediting is needed by users.
           required: true
