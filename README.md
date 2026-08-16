@@ -1,2 +1,15 @@
 # devinsbadges-customs
-A custom Library for more devinsbadges
+A (unofficial) custom community Library for badges that haven't made it to the official intergrav/devinsbadges library.
+
+## Why?
+Devinsbadges is amazing! But, intergrav has lost his time as of January 2026, where he will now only accept actual serious new badges from the community. Still, a lot of people don't know how to create their own badges and it takes a lot of time. That's why this unofficial library exists. People can contribute their own custom badges to this library, and everyone can use them.
+
+## Credits
+<details>
+  <summary>Only Available</summary>
+  <h4>Modrinth</h4>
+  Cozy: Intensed-dev
+</details>
+
+<hr>
+_Not in any contact with Intergrav or Devinsbadges. If you've got an copyright issue, please report them by creating a new issue._
