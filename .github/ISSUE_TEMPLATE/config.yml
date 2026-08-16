@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Intergrav Discord
+    about: Ask questions on intergrav's Discord Server (not affiliated)
+    url: https://discord.gg/36Tv44cYte
+  - name: Official Documentation
+    about: The official Intergrav Documentation that shows you how to add badges to your website and more (not affiliated)
+    url: https://intergrav.github.io/devins-badges-docs/
