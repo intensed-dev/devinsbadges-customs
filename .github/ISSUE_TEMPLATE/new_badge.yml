@@ -1,0 +1,85 @@
+name: New Badge
+description: Submit a badge for the DevinsBadges Community Library
+title: "[NEW] BADGENAME_HIER"
+labels:
+  - enhancements
+assignees:
+  - Intensed-dev
+
+body:
+  - type: input
+    id: badge_name
+    attributes:
+      label: Name des Badges
+      description: Gib den Namen des neuen Badges ein.
+      placeholder: z. B. Modrinth
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Beschreibung
+      description: Beschreibe kurz, was das Badge darstellt und wofür es verwendet werden soll.
+      placeholder: Beschreibe dein Badge...
+    validations:
+      required: true
+
+  - type: textarea
+    id: images
+    attributes:
+      label: Badge Images
+      description: |
+        Lade bitte sowohl die PNG- als auch die SVG-Version hoch.
+
+        Ziehe die Dateien einfach hier hinein oder füge sie ein.
+      placeholder: |
+        PNG:
+        SVG:
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: styles
+    attributes:
+      label: Badge Style
+      description: Wähle alle Varianten aus, die erstellt werden sollen.
+      options:
+        - label: cozy
+        - label: cozy minimal
+        - label: compact
+        - label: compact minimal
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Badge Category
+      description: Wähle die Kategorie des Badges.
+      options:
+        - OTHER
+        - only available
+        - available
+        - built with
+        - built for
+        - documentation
+        - donate
+        - requires
+        - social
+        - supported
+        - translate
+        - unsupported
+      default: 1
+    validations:
+      required: true
+
+  - type: input
+    id: other_category
+    attributes:
+      label: Eigener Kategorie-Name
+      description: |
+        Nur ausfüllen, wenn du bei "Badge Category" OTHER ausgewählt hast.
+      placeholder: z. B. featured
+    validations:
+      required: false
