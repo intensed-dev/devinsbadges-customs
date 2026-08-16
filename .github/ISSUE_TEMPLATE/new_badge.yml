@@ -60,7 +60,7 @@ body:
       label: Badge Category
       description: Select the category of the badge.
       options:
-        - -- OTHER --
+        - Other
         - only available (community)
         - available
         - built with
@@ -72,15 +72,15 @@ body:
         - supported
         - translate
         - unsupported
-      default: 1
+      default: 0
     validations:
       required: true
 
   - type: dropdown
-    id: creditation
+    id: attribution
     attributes:
-      label: Creditation
-      description: Choose what type of creditation you want to get.
+      label: Attribution
+      description: Choose what type of attribution you want to receive.
       options:
         - Default
         - Other
@@ -88,22 +88,25 @@ body:
         - URL only
         - Custom Name & URL
       default: 0
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
-    id: credit_text
+    id: attribution_content
     attributes:
-      label: Credit Content
-      description: Add your preferred links or names. If you selected OTHER, type them here. This will ignored if you choose Default.
-      validations:
-        required: false
+      label: Attribution Content
+      description: Add your preferred name and/or URL. If you selected Other, describe your preferred attribution here. This will be ignored if you choose Default.
+      placeholder: |
+        Name: Your Name
+        URL: https://example.com
+    validations:
+      required: false
 
   - type: input
     id: other_category
     attributes:
       label: Custom Category Name
-      description: Only fill this out if you selected OTHER above.
+      description: Only fill this out if you selected Other as the badge category.
       placeholder: e.g. featured
     validations:
       required: false
@@ -116,11 +119,11 @@ body:
       options:
         - label: I have provided accurate information to the best of my knowledge.
           required: true
-        - label: I am allowed to submit this badge or I am the copyright holder.
+        - label: I am allowed to submit this badge, or I am the copyright holder.
           required: true
-        - label: I understand that this submit will be reviewed by the DevinsBadges-Customs maintainers.
+        - label: I understand that this submission will be reviewed by the DevinsBadges-Customs maintainers.
           required: true
         - label: I understand that submitting this badge does not automatically mean that the badge will be added.
           required: true
-        - label: I will accept that these badges will be licensed under CC0 1.0 Universal once accepted and no crediting is needed by users.
+        - label: I understand that, if accepted, my submitted badge will be dedicated to the public domain under CC0 1.0 Universal, to the extent permitted by law.
           required: true
