@@ -10,14 +10,20 @@ body:
   - type: dropdown
     id: badge
     attributes:
-      label: Affected Badge
-      description: Select the badge that you believe has an intellectual property issue.
+      label: Affected Badge Category
+      description: Select the badge category that you believe has an intellectual property issue.
       options:
-        - Select a badge
-        - BADGE_NAME_1
-        - BADGE_NAME_2
-        - BADGE_NAME_3
+        - only available
         - Other / Not Listed
+    validations:
+      required: true
+
+ - type: input
+    id: badge_name
+    attributes:
+      label: Badge Name
+      description: The name of the badge. Use CATEGORY/BADGE if you selected "OTHER" above.
+      placeholder: e.g. my_category/my_badge
     validations:
       required: true
 
