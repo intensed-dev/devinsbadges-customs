@@ -1,7 +1,7 @@
 # devinsbadges-customs
 A (unofficial) custom community Library for badges that haven't made it to the official [intergrav/devinsbadges](https://github.com/intergrav/devins-badges) library. Head to the [badge reference](docs/reference) for all badges.
 
-> [!INFO]
+> [!TIP]
 > You need a Badge? Use [Arthur Simin's Badgeworks generator](https://arthursimin.github.io/Badgeworks/)!
 
 ## Why?
