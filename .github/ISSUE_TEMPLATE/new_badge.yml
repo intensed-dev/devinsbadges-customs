@@ -114,16 +114,16 @@ body:
     validations:
       required: false
 
-   - type: checkboxes
-     id: content_disclosures
-     attributes:
-       label: Content Disclosures
-       description: Please select all of these if matching.
-       options:
-         - label: This badge contains AI generated stuff
-           required: false
-         - label: This badge was made using online tools, e.g. Arthur Simins Badgeworks Generator
-           required: false
+  - type: checkboxes
+    id: content_disclosures
+    attributes:
+      label: Content Disclosures
+      description: Please select all of these if matching.
+      options:
+        - label: This badge contains AI generated stuff
+          required: false
+        - label: This badge was made using online tools, e.g. Arthur Simins Badgeworks Generator
+          required: false
 
   - type: checkboxes
     id: confirmation
