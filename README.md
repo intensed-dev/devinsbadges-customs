@@ -1,6 +1,9 @@
 # devinsbadges-customs
 A (unofficial) custom community Library for badges that haven't made it to the official [intergrav/devinsbadges](https://github.com/intergrav/devins-badges) library. Head to the [badge reference](docs/reference) for all badges.
 
+> [!INFO]
+> You need a Badge? Use [Arthur Simin's Badgeworks generator](https://arthursimin.github.io/Badgeworks/)!
+
 ## Why?
 Devinsbadges is amazing! But, intergrav has lost his time as of January 2026, where he will now only accept actual serious new badges from the community. Still, a lot of people don't know how to create their own badges and it takes a lot of time. That's why this unofficial library exists. People can contribute their own custom badges to this library, and everyone can use them.
 
